@@ -22,26 +22,33 @@
         <!-- corpo pagina cadastro -->
         <h1>Cadastro de Veículos</h1>
         <div>
-            <form id="formulario">
+            <!-- formulario com destino  frota e metodo http post-->
+            <form id="formulario" action="/HTML/Frota.html" method="post">
                 <label for="marca">Marca</label>
-                <input type="text" id="marca" name="marca">
+                <input type="text" id="marca" name="marca"><br>
 
                 <label for="modelo">Modelo</label>
-                <input type="text" id="modelo" name="modelo">
+                <input type="text" id="modelo" name="modelo"><br>
 
                 <label for="ano">Ano</label>
-                <input type="number" id="ano" name="ano">
+                <input type="text" id="ano" name="ano"><br>
 
                 <label for="dataC">Data Compra</label>
-                <input type="date" id="dataC" name="dataC">
-
-                <label for="estadoV">Estado do Veículo</label><br>
-                <input type="radio" id="estadoV" name="estadoV" value="Novo" checked>
-                <input type="radio" id="estadoV" name="estadoV" value="Usado">
+                <input type="date" id="dataC" name="dataC"><br>
+                <!-- div estado veiculo-->
+                <p>Estado Do Veículo</p>
+                <div>
+                    <label for="estavdoV">Novo</label>
+                    <input type="radio" id="estadoV" name="estadoV" value="Novo" checked><br>
+                    <label for="estadoV">Usado</label>
+                    <input type="radio" id="estadoV" name="estadoV" value="Usado">
+                </div>
+                <button type="submit">Salvar</button>
                 
 
             </form>
         </div>
     </header>
+    <script src="/JS/Cadastro.js"></script>
 </body>
 </html>
