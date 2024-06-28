@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoRentACar</title>
+    <!-- importe css -->
+    <link rel="stylesheet" href="/CSS/Frota.css">
+</head>
+<body>
+    <!-- conteudo cabeçalho -->
+    <header>
+        <img class="logoAR" src="/IMAGENS/LogoAutoR.png" alt="Logo da Auto Rent A Car escrito dentro de um desenho de carro em azul">
+        <ul>
+            <il><a class="linkC" href="/index.html"><strong>INICIO</strong></a></il>
+            <il><a class="linkC" href="/HTML/Frota.html"><strong>FROTA</strong></a></il>
+            <il><a class="linkC" href="/HTML/Cadastro.html"><strong>CADASTRO</strong></a></il>
+            <il><a class="linkC" href="/HTML/Ajuda.html"><strong>AJUDA</strong></a></il>
+        </ul>
+        <!-- conteudo corpo -->
+        <div>
+            <h1>Frota de Veículos</h1>
+            <!-- Botao buscar -->
+            <div class="buscar">
+                <label for="Modelo">Modelo</label>
+                <input type="text" id="Modelo" name="Modelo">
+                <button>Buscar</button>
+            </div>
+            <!-- Tabela -->
+             <table>
+                <tr>
+                    <th>Código</th>
+                    <th>Modelo</th>
+                    <th>Marca</th>
+                    <th>Ano</th>
+                    <th>Data Compra</th>
+                    <th>Ações</th>
+                </tr>
+                <tr>
+                    <td>2345</td>
+                    <td>Gol 1.0 Flex</td>
+                    <td>Ford</td>
+                    <td>2012</td>
+                    <td>12/01/2016</td>
+                    <td><a class="reservar" href="#">Reservar</a></td>
+                </tr>
+                <tr>
+                    <td>2541</td>
+                    <td>Cleta 1.4 Flex</td>
+                    <td>GM</td>
+                    <td>2015</td>
+                    <td>04/09/2015</td>
+                    <td><a class="reservar" href="#">Reservar</a></td>
+                </tr>
+                <tr>
+                    <td>2645</td>
+                    <td>Pálio 1.0 Flex</td>
+                    <td>FIAT</td>
+                    <td>2014</td>
+                    <td>10/01/2015</td>
+                    <td><a class="reservar" href="#">Reservar</a></td>
+                </tr>
+                <tr>
+                    <td>2722</td>
+                    <td>Corolla 2.0</td>
+                    <td>TOYOTA</td>
+                    <td>2015</td>
+                    <td>07/05/2016</td>
+                    <td><a class="reservar" href="#">Reservar</a></td>
+                </tr>
+            </table>
+        </div>    
+    </header>
+    <script src="/JS/Frota.js" defer></script>
+</body>
+</html>
