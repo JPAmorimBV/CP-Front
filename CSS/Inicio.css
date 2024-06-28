@@ -8,9 +8,10 @@
 /* Congigura a tag body */
 body{
     box-sizing: border-box; 
-    
     display: flex; 
     justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 /* logo Auto Rente A Car */
@@ -41,7 +42,11 @@ a{
    height: auto;
    width: auto;
    margin-bottom: 3%;
-      
+    
+}
+
+.divcarro img {
+    box-shadow: 4px 4px 4px #000;     
 }
 
 
