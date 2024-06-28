@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoRentACar</title>
+    <title>AutoRentACar - Ajuda</title>
     <!-- importe css -->
     <link rel="stylesheet" href="/CSS/Ajuda.css">
 </head>
@@ -19,6 +19,22 @@
             <il><a href="/HTML/Cadastro.html"><strong>CADASTRO</strong></a></il>
             <il><a href="/HTML/Ajuda.html"><strong>AJUDA</strong></a></il>
         </ul>
-    </header>    
+
+        <!-- corpo página -->
+        <div>
+            <h1>Cálculo de Combustível</h1>
+            <form id="formularioComb">                
+                <label for="gasolina">Gasolina</label>
+                <input type="number" name="gasolina" id="gasolina" required><br>
+                
+                <label for="etanol">Etanol</label>
+                <input type="number" name="etanol" id="etanol" required>
+                
+                <button type="submit">Calcular</button>
+            </form>    
+            <div id="resultado"></div>                
+        </div>
+    </header>
+    <script src="/JS/Ajuda.js"></script>    
 </body>
 </html>

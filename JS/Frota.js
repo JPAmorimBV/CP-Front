@@ -20,5 +20,19 @@ links.forEach(function(links){
     });
 });
 
-
+// Recupera os registros da sessionStorage
+var registros = JSON.parse(sessionStorage.getItem("registros")) || [];
+var tabelaRegistros = document.getElementById("tabela");
+cod =2800;
+codV = cod+1;
+// Coloca os dados na tabela 
+registros.forEach(function(registro) {
+  var row = tabelaRegistros.insertRow();
+  row.insertCell(0).textContent = codV;
+  row.insertCell(1).textContent = registro.marca;
+  row.insertCell(2).textContent = registro.modelo;
+  row.insertCell(3).textContent = registro.ano;
+  row.insertCell(4).textContent = registro.dataC;
+  row.insertCell(5).textContent = "Reservar";
+});
   
