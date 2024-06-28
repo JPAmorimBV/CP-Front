@@ -1,18 +1,24 @@
+/* reset css da página */
 *{
     margin:0;
     padding: 0;
     
 } 
 
+/* configuração da página */
 body{
     box-sizing: border-box; 
     display: flex; 
     justify-content: center;
 }
+
+/* configuração da logo Auto Rente A Car */
 .logoAR{
     width: 100%;
     height: 150px;
 }
+
+/* configuração do cabeçalho */
 ul{
     display: flex;
     margin: 50px;
@@ -20,27 +26,33 @@ ul{
     
 }
 
+/* configuração cabeçalho link */
 .linkC{
     text-decoration: none;
     color:rgb(224, 168, 2);
     margin-right: 40px;
 }
 
+/* configuração titulo frota de veículos */
 h1{
     margin-left: 5%;
 }
 
+/* configuração bottom */
 .buscar{
     margin-top: 2%;
     margin-left: 5%;
 }
 
+/* configuração da tabela  */
 table {
     border-collapse: collapse;
     width: 45%;
     margin-left: 5%;
     
 }
+
+/* configuração das colunas e linhas da tabela */
 th, td {
     border: 1px solid black;
     padding: 4px;

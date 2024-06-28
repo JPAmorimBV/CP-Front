@@ -1,9 +1,11 @@
+/* reset da css da página */
 *{
     margin:0;
     padding: 0;
     
 } 
 
+/* Congigura a tag body */
 body{
     box-sizing: border-box; 
     
@@ -11,11 +13,13 @@ body{
     justify-content: center;
 }
 
+/* logo Auto Rente A Car */
 .logoAR{
     width: 100%;
     height: 150px;
 }
 
+/* configuração cabeçalho */
 ul{
     display: flex;
     margin: 50px;
@@ -23,23 +27,27 @@ ul{
     
 }
 
+/* configuração da tag link  */
 a{
     text-decoration: none;
     color:rgb(224, 168, 2);
     margin-right: 40px;
 }
 
+/* configuranção titulo cadastro veículo */
 h1{
     margin-left: 5%;
     margin-bottom: 3%;
 }
 
+/* configuração corpo da página */
 div{
     margin-left: 5%;
     border: solid 1px black;
     width: 40%;
 }
 
+/* configuração salvar */
 button{
     margin: 2%;
 }

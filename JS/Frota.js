@@ -25,6 +25,7 @@ var registros = JSON.parse(sessionStorage.getItem("registros")) || [];
 var tabelaRegistros = document.getElementById("tabela");
 cod =2800;
 codV = cod+1;
+
 // Coloca os dados na tabela 
 registros.forEach(function(registro) {
   var row = tabelaRegistros.insertRow();

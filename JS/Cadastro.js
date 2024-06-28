@@ -22,7 +22,9 @@ function enviarFormulario() {
   
   alert("Carro registrado com sucesso!")
   
+  // direciona para a página frota 
   window.location.href ="Frota.html"
   
+  // muda o comportamento do envio do formulario 
   return false; 
 }
